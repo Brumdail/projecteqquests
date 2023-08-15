@@ -2,7 +2,7 @@
 # NPC: Guard Hobart (Missions 4+)
 # Quests:
 # - Arachnophobia (Group) - taskid:1394 - completes
-# - The Battle of Gloomingdeep - taskid:1448 - starts/completes
+# - The Battle of Gloomingdeep - taskid:5102 - starts/completes
 # - Freedom's Stand (Group) - taskid:5106 - starts/completes
 # items: 82930, 82937, 82944, 82951, 77780, 82929, 82936, 82943, 82950
 
@@ -62,7 +62,7 @@ sub EVENT_SAY {
          quest::ding();
       }
       else {
-         quest::taskselector(1448,5106);
+         quest::taskselector(5102,5106);
       }
    }
 } 
